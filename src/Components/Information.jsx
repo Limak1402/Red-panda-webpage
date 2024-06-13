@@ -1,9 +1,10 @@
-import React from 'react'
-
-const Information = () => {
+export function Information({ title, img, description, alt_text }){
   return (
-    <div>Information</div>
+    <li>
+      <p>{ title }</p>
+      <p><img src={ img } alt={ alt_text } /></p>
+      <p>{ description }</p>
+
+    </li>
   )
 }
-
-export default Information
