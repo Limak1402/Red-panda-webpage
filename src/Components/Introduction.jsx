@@ -1,11 +1,11 @@
 import React from 'react'
-import videoFile from '../Assets/red-panda.mp4'
+import videoFile from '../Assets/red-panda.webm'
 
 const Introduction = () => {
   return (
     <div>
-      <video width="100%" controls autoPlay muted>
-        <source src={videoFile} type="video/mp4" />
+      <video width="100%" controls autoPlay muted loop>
+        <source src={videoFile} type="video/webm" />
         Your browser does not support the video tag.
       </video>
       <p className='description'>

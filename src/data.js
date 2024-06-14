@@ -1,6 +1,6 @@
 import maps from './Assets/Ailurus_fulgens_distribution_map.png'
-import name from './Assets/red-panda-1851661_1280.jpg'
-import life from './Assets/red-panda-1194504_1280.jpg'
+import name from './Assets/red-panda-1851661_1280.avif'
+import life from './Assets/red-panda-1194504_1280.avif'
 
 export const INFORMATIONS = [
     {
@@ -13,7 +13,7 @@ export const INFORMATIONS = [
     {
         title: 'Tryb życia',
         img: life,
-        description: 'Pandka prowadzi nocny tryb życia i jest zwierzęciem wszystkożernym, jednakże pokarm roślinny jest podstawą jej wyżywienia.            Długość: 51-63 cm            Długość ogona: 30-60 cm            Masa: samce 4,5-6,2, samice 3-4,5 kg            Ubarwienie: rdzawe lub rdzawobrązowe, pysk, policzki i końce uszu białe; na ogonie ciemniejsze pierścienie, koniuszek ogona puszysty i ciemny, łapy i brzuch ciemniejsze od reszty ciała.            Rozmnażanie: ciąża trwa od 90 do 150 dni, w miocie 1-5 młodych.            Siedlisko: lasy na obszarach górzystych            Status: gatunek zagrożony',
+        description: 'Pandki rude prowadzą nocny tryb życia. Większość dnia spędzają na drzewach, gdzie budują gniazda z gałęzi i liści. Są samotnikami i spotykają się tylko w celu rozmnażania lub w celu obrony terytorium.',
         alt_text: 'Tryb życia'
     },
 
